@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
     <?php
     function check($data){
         $data = trim($data); // Verwijdert onnodige tekens (extra spatie, tab, nieuwe regel)
@@ -22,57 +21,60 @@
     $huisdierError = $persoonError = $landError = $verveelError = $speelgoedError = $spijbelError = $kopenError = $bezigheidError = "";
     $formSucces = false;
 
-    if ($_SERVER["REQUEST_METHOD"] == "POST"){
-        if (empty($_POST["huisdier"])){
-            $huisdierError = "Deze veld is verplicht";
-        } else{
-            $huisdier = check($_POST["huisdier"]);
-        } 
-        if (empty($_POST["persoon"])){
-            $persoonError = "Deze veld is verplicht";
-        } else{
-            $persoon = check($_POST["persoon"]);
-        } 
-        if (empty($_POST["land"])){
-            $landError = "Deze veld is verplicht";
-        } else{
-            $land = check($_POST["land"]);
-        } 
-        if (empty($_POST["verveel"])){
-            $verveelError = "Deze veld is verplicht";
-        } else{
-            $verveel = check($_POST["verveel"]);
-        } 
-        if (empty($_POST["speelgoed"])){
-            $speelgoedError = "Deze veld is verplicht";
-        } else{
-            $speelgoed = check($_POST["speelgoed"]);
-        } 
-        if (empty($_POST["spijbel"])){
-            $spijbelError = "Deze veld is verplicht";
-        } else{
-            $spijbel = check($_POST["spijbel"]);
-        } 
-        if (empty($_POST["kopen"])){
-            $kopenError = "Deze veld is verplicht";
-        } else{
-            $kopen = check($_POST["kopen"]);
-        } 
-        if (empty($_POST["bezigheid"])){
-            $bezigheidError = "Deze veld is verplicht";
-        } else{
-            $bezigheid = check($_POST["bezigheid"]);
-        } 
+    
 
-        if ($huisdierError == "" and $persoonError == "" and $landError == "" and $verveelError == "" and $speelgoedError == "" and $spijbelError == "" and $kopenError == "" and $bezigheidError == ""){
-            $formSucces = true;
-        }
+    if ($_SERVER["REQUEST_METHOD"] == "POST"){
+
+
+
+
+        // if (empty($_POST["huisdier"])){
+        //     $huisdierError = "Deze veld is verplicht";
+        // } else{
+        //     $huisdier = check($_POST["huisdier"]);
+        // } 
+        // if (empty($_POST["persoon"])){
+        //     $persoonError = "Deze veld is verplicht";
+        // } else{
+        //     $persoon = check($_POST["persoon"]);
+        // } 
+        // if (empty($_POST["land"])){
+        //     $landError = "Deze veld is verplicht";
+        // } else{
+        //     $land = check($_POST["land"]);
+        // } 
+        // if (empty($_POST["verveel"])){
+        //     $verveelError = "Deze veld is verplicht";
+        // } else{
+        //     $verveel = check($_POST["verveel"]);
+        // } 
+        // if (empty($_POST["speelgoed"])){
+        //     $speelgoedError = "Deze veld is verplicht";
+        // } else{
+        //     $speelgoed = check($_POST["speelgoed"]);
+        // } 
+        // if (empty($_POST["spijbel"])){
+        //     $spijbelError = "Deze veld is verplicht";
+        // } else{
+        //     $spijbel = check($_POST["spijbel"]);
+        // } 
+        // if (empty($_POST["kopen"])){
+        //     $kopenError = "Deze veld is verplicht";
+        // } else{
+        //     $kopen = check($_POST["kopen"]);
+        // } 
+        // if (empty($_POST["bezigheid"])){
+        //     $bezigheidError = "Deze veld is verplicht";
+        // } else{
+        //     $bezigheid = check($_POST["bezigheid"]);
+        // } 
+
     }
 
-
     if (!$formSucces){
-    ?>
+        ?>
         <div class="container">
+
             <header>
                 <nav>
                     <ul>
@@ -139,21 +141,6 @@
 
                 <p>Er heerst paniek in het koninkrijk Gallifrey, Koning <?php echo $spijbel;?> is ten einde raad en als koning <?php echo $spijbel;?> ten einde raad is, dan roept hij zijn ten-raadsheer <?php echo $persoon;?>.</p>
 
-                <p>"<?php echo $persoon; ?>! Het is een ramp! Het is een schande!"</p>
-
-                <p>"Sire, Majesteit, Uwe Luidruchtigheid, wat is er aan de hand?"</p>
-            
-                <p>"Mijn <?php echo $huisdier; ?> is verdwenen! Zo maar, zonder waarschuwing. En ik had net <?php echo $speelgoed; ?> voor hem gekocht!"</p>
-
-                <p>"Majesteit, uw <?php echo $huisdier; ?> komt vast vanzelf weer terug?"</p>
-
-                <p>"Ja, da's leuk en aardig, maar hoe moet ik in de tussentijd <?php echo $bezigheid; ?> leren?"</p>
-
-                <p>"Maar Sire, daar kunt u toch uw <?php echo $kopen; ?> voor gebruiken."</p>
-
-                <p>"<?php echo $persoon; ?>, je hebt helemaal gelijk! Wat zou ik doen als ik jou niet had."</p>
-
-                <p>"<?php echo ucfirst($verveel); ?>, Sire."</p>
             </div>
 
             <footer>
@@ -165,6 +152,6 @@
     <?php
     }
     ?>
-    
+
 </body>
 </html>
