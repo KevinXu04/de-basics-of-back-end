@@ -52,7 +52,7 @@
             }
         }
 
-        if (!($formSucces)){
+        if (!$formSucces){
             ?>
             <div>
                 <h1>Form</h1>

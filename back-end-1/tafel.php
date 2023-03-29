@@ -13,7 +13,7 @@ function tafelBerekenen($getal){
     $tafel = "";
     for ($x = 1; $x < 11; $x++){
         $antwoord = $x * $getal;
-        $tafel .= "$x x $getal = $antwoord <br>";
+        $tafel .= "$x x $getal = $antwoord <br>"    ;
 
     }   
     return $tafel;
