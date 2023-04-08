@@ -15,7 +15,6 @@ let getPersonButtonServer = document.getElementById("get-person-serverside");
 
 function zenci(event){
     let person = this.response;
-    // console.dir(person)
     showPerson(person);
 }
 
