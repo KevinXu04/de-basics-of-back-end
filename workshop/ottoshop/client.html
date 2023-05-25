@@ -10,7 +10,7 @@
 <body>
     <h1>Gratis auto</h1>
 
-    <form action="client.php" method="GET">
+    <form action="client.php" method="GET" id="newCar">
 
         <p>
             <label for="brand">Brand: </label>
@@ -35,6 +35,22 @@
 
 </body>
 
-    <script src=""></script>
+    <script>
+
+        form = document.getElementById("newCar");
+            
+        function submitCar(event){
+            event.preventDefault();
+            let formData = new FormData(this);
+            console.dir(formData);
+            let xhr = new XMLHttpRequest();
+            xhr.open("get", "client.php");
+            xhr.onload = handleResponse;
+            xhr.send(formData);
+        }
+
+        form.onsubmit = submitCar;
+
+    </script>
 
 </html>
