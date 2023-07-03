@@ -1,14 +1,5 @@
 <!-- jouw HTML met de inhoud over onderwerp 1 komt hier... -->
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
-</head>
-<body>
-    
     <div class="wrapper">
         <img src="images/assassin.png" alt="" class="assassin">
         <div class="text">
@@ -24,6 +15,3 @@
             <p>Assassin's Creed is een geliefde franchise geworden vanwege zijn unieke combinatie van geschiedenis, actie en avontuur. Het heeft een trouwe fanbase opgebouwd en heeft verschillende prijzen en lof ontvangen voor zijn verhaalvertelling, gameplay en grafische pracht. Of je nu geïnteresseerd bent in geschiedenis of gewoon op zoek bent naar een meeslepende en uitdagende game-ervaring, Assassin's Creed heeft voor elk wat wils.</p>
         </div>
     </div>
-
-</body>
-</html>

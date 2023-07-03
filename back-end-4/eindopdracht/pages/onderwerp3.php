@@ -1,14 +1,5 @@
 <!-- jouw HTML met de inhoud over onderwerp 1 komt hier... -->
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
-</head>
-<body>
-    
     <div class="wrapper">
         <img src="images/fortnite.png" class="fortnite">
         <div class="text">
@@ -26,6 +17,3 @@
             <p>Al met al is Fortnite een revolutionaire en opwindende game die de grenzen van gaming heeft verlegd. Met zijn unieke combinatie van schietspel, bouwen en sociale interactie heeft het spel een enorme impact gehad op de gaming-cultuur. Of je nu een fan bent van intense Battle Royale-gevechten of creatieve constructies, Fortnite biedt een meeslepende en uitdagende ervaring die spelers van alle niveaus en leeftijden blijft boeien.</p>
         </div>
     </div>
-
-</body>
-</html>

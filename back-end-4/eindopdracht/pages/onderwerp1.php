@@ -1,14 +1,6 @@
 <!-- jouw HTML met de inhoud over onderwerp 1 komt hier... -->
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
-</head>
-<body>
-    
+
     <div class="wrapper">
         <img src="images/minecraft.png" class="minecraft">
         <div class="text">
@@ -24,6 +16,3 @@
             <p>Dus als je op zoek bent naar een spannende en uitdagende spelervaring, raad ik je zeker aan om survival-modus in Minecraft te proberen. Het zal je zeker meeslepen in een wereld vol avontuur en overleving.</p>
         </div>
     </div>
-
-</body>
-</html>

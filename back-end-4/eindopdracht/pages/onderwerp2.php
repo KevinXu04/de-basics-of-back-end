@@ -1,14 +1,5 @@
 <!-- jouw HTML met de inhoud over onderwerp 1 komt hier... -->
 
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
-</head>
-<body>
-    
     <div class="wrapper">
         <img src="images/fifa.png" class="fifa">
         <div class="text">
@@ -26,6 +17,3 @@
             <p>Al met al is FIFA Ultimate Team een boeiende en verslavende spelmodus die voetbalfans in staat stelt hun eigen droomteam te creëren en het op te nemen tegen andere spelers over de hele wereld. Het strategische aspect, de variëteit aan spelerskaarten en de voortdurende updates maken het een onvergetelijke ervaring voor liefhebbers van voetbal en gaming.</p>
         </div>
     </div>
-
-</body>
-</html>
