@@ -1,0 +1,39 @@
+﻿Investigation;null;Further investigation is required when you're unsure what your device's issue is.
+Screen;null;Your screen is cracked, doesn't respond properly, or displays horizontal/vertical lines and/or unusual colors.
+LCD Display;null;Your screen displays unusual colors, lines, or a blank/black screen.
+Touchscreen;null;Your screen is cracked or doesn't respond properly.
+Battery;null;The battery life of your device is very short, or your device keeps turning off.
+Charging Port;null;Your device is unable to charge and/or connect to your computer.
+Wireless Charging Port;null;Your device is unable to charge wirelessly.
+Water Damage;null;Your device was in contact with water or another liquid.
+Earspeaker;null;You can't hear the other person on a phone call.
+Loudspeaker;null;When playing media, the sound quality is bad, or there's no sound at all.
+Headphone Jack;null;The headphone jack has dirt in it, or your headphones and other devices don't work anymore.
+Microphone (calling);null;During phonecalls, the other person can't hear you, or they complain the sound quality is bad.
+Microphone (video);null;When using speaker the other person can't hear you and/or the sound quality of the videos you record is bad.
+Back-facing Camera;null;The back-facing camera doesn't take pictures or display a blurry picture quality.
+Camera Lens;null;Your lens is cracked or has dust under it. In some cases, the whole back cover must be replaced.
+Front-facing Camera;null;The front-facing camera doesn't take pictures or display blurry picture quality.
+Housing / Midframe;null;There is damage, such as a dent, along your device's edge(s). In some cases, the back cover must also be replaced.
+Back Cover;null;Your back cover is cracked or damaged. In some cases, the camera glass must also be replaced.
+Wifi Antenna;null;Your wifi connection is slow. In some cases, further investigation is required.
+GPS Antenna;null;Your device fails to determine your location or you have problems with navigation.
+NFC Antenna;null;You're unable to pay wirelessly or transfer files through NFC.
+Bluetooth Antenna;null;Your device fails to establish bluetooth connections. In some cases, further investigation is required.
+GSM Antenna;null;Your device is unable to connect to 3G or 4G. In some cases, further investigation is required.
+Fingerprint Sensor;null;The device doesn't register your fingerprint.
+Proximity Sensor;null;During phonecalls, your screen doesn't go black, or the screen lock stays on/off until the end of the call.
+Face Recognition Sensor;null;You're unable to unlock your phone with your face and/or iris.
+Gyroscope Sensor;null;The screen display fails to autorotate when you rotate your device.
+SIM Card Reader;null;Your device fails to recognize the SIM card, or internal pins of the SIM card reader are damaged.
+SD Card Reader;null;Your device fails to recognize SD cards, or internal pins are damaged.
+Volume Button(s);null;The volume button is damaged or doesn't respond.
+Mute-switch;null;Your phone can't be put on mute anymore, and/or the mute-switch is stuck.
+Power Button;null;The power button can't be pressed or doesn't respond.
+Home Button;null;The home button can't be pressed or doesn't respond.
+Motherboard;null;Your device has issues that don't relate to replaceable hardware components.
+Vibrator;null;Your device doesn't vibrate properly during calls or notifications.
+Flash;null;Your device's flashlight does not work.
+Update or Erase Software;null;Update your device with the latest software or erase all personal data.
+Remove Reset Lock;null;You're unable to unlock your device. In some cases, data may be lost.
+Change to a new device;null;Switch over to a new device without losing any files or data.
